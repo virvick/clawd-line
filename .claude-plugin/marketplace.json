@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "clawd-line",
+  "description": "clawd-line — a Claude Code statusline with an animated crab mascot",
+  "owner": {
+    "name": "virvick"
+  },
+  "plugins": [
+    {
+      "name": "clawd-line",
+      "version": "1.0.0",
+      "description": "A Claude Code statusline with Clawd, an animated crab mascot that reacts to thinking/executing/idle states, plus gradient usage bars, git branch, and cost tracking. Bash + native PowerShell (no Node, no Git Bash needed on Windows).",
+      "source": "./",
+      "category": "tools",
+      "keywords": ["statusline", "catppuccin", "mascot", "context-window", "api-usage", "terminal"],
+      "author": {
+        "name": "virvick"
+      },
+      "homepage": "https://github.com/virvick/clawd-line"
+    }
+  ]
+}

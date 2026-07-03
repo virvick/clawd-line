@@ -63,6 +63,14 @@ git clone https://github.com/virvick/clawd-line.git && cd clawd-line
 ./install.ps1           # Windows PowerShell
 ```
 
+Or find it via Claude Code's plugin marketplace:
+
+```
+/plugin marketplace add virvick/clawd-line
+```
+
+then run `install.sh`/`install.ps1` from wherever it lands to actually wire up the statusline (the marketplace listing is for discovery — it doesn't auto-configure `settings.json` on its own).
+
 Then restart Claude Code (or start a new session). That's it.
 
 The installer:
