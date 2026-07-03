@@ -1,8 +1,9 @@
 <div align="center">
   <img src="assets/clawd-logo.png" width="120" alt="Clawd">
-</div>
 
 # clawd-line
+
+</div>
 
 A statusline for Claude Code with Clawd, an animated crab mascot that reacts to what Claude is actually doing — context, usage limits, cost & reasoning effort, all at a glance. One line to install on macOS, Linux & Windows.
 
