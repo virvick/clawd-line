@@ -1,4 +1,4 @@
-# 🦀 clawd-line
+# clawd-line
 
 A statusline for Claude Code with Clawd, an animated crab mascot that reacts to what Claude is actually doing — context, usage limits, cost & reasoning effort, all at a glance. One line to install on macOS, Linux & Windows.
 
