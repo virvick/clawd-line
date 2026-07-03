@@ -2,6 +2,8 @@
 
 A statusline for Claude Code with Clawd, an animated crab mascot that reacts to what Claude is actually doing — context, usage limits, cost & reasoning effort, all at a glance. One line to install on macOS, Linux & Windows.
 
+<div align="center">
+
 [Quick Install](#-quick-install) · [Features](#features) · [How it works](#how-it-works) · [Requirements](#requirements)
 
 [![Stars](https://img.shields.io/github/stars/virvick/clawd-line?style=flat&color=yellow)](https://github.com/virvick/clawd-line/stargazers)
@@ -9,6 +11,8 @@ A statusline for Claude Code with Clawd, an animated crab mascot that reacts to 
 [![Catppuccin](https://img.shields.io/badge/theme-Catppuccin_Mocha-cba6f7)](https://github.com/catppuccin/catppuccin)
 [![Zero config](https://img.shields.io/badge/config-zero-brightgreen)](#-quick-install)
 [![MIT](https://img.shields.io/github/license/virvick/clawd-line)](LICENSE)
+
+</div>
 
 ![clawd-line demo](assets/demo/demo.gif)
 
