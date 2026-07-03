@@ -1,0 +1,3 @@
+# Auto-requests review on every PR, backing the branch protection rule
+# on main (1 required approval).
+* @virvick

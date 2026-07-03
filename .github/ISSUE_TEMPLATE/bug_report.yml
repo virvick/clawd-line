@@ -1,0 +1,50 @@
+name: Bug report
+description: Something in clawd-line isn't rendering or installing correctly
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Found a security issue instead? Please use [private reporting](https://github.com/virvick/clawd-line/security/advisories/new) rather than a public issue.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS
+        - Linux
+        - Windows (PowerShell)
+        - Windows (Git Bash / WSL)
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: clawd-line version / commit
+      description: Output of `git -C <clone> rev-parse --short HEAD`, or when you installed it
+      placeholder: e.g. v1.0.0 or "installed 2026-07-03"
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you expected vs. what you saw
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot or terminal output
+      description: A screenshot of the statusline (or copy-pasted text) makes rendering bugs much easier to diagnose
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Install via ...
+        2. Open Claude Code in ...
+        3. See ...
