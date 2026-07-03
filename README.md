@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/clawd-logo.png" width="120" alt="Clawd">
+  <img src="assets/clawd-logo.gif" width="120" alt="Clawd">
 
 # clawd-line
 
